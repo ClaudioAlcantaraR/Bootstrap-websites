@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--FontAWS-->
+    <script src="https://kit.fontawesome.com/c06567aaeb.js" crossorigin="anonymous"></script>
+    <!--My Css-->
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Form Design</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="card">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-box">
+                        <form class="myForm text-center">
+                            <header>Create new account</header>
+                            <div class="form-group">
+                                <i class="fas fa-user"></i>
+                                <input type="text" class="myInput" placeholder="Username" id="username" required>
+                            </div>
+                            <div class="form-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" class="myInput" placeholder="Email" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <div class="fas fa-lock"></div>
+                                <input type="password" class="myInput" id="password" placeholder="Password" required>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" id="check_1" name="check_1" required><small>I read and agree to Terms & Conditions</small>
+                                    <div class="invalid-feedback">You must check the box.</div>
+                                </label>
+                            </div>
+                            <input type="submit" class="butt" value="CREATE ACCOUNT">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-box">
+                        <div class="box">
+                            <header>Hello World!</header>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam saepe error ducimus eius tempore, hic culpa deleniti magni consequuntur earum.</p>
+                            <input type="button" class="butt_out" value="Learn More">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>
